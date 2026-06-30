@@ -1,0 +1,15 @@
+# Arduino IDE local build and temporary directories
+build/
+.build/
+sketches/
+
+# Local IDE settings
+.vscode/
+.settings/
+
+# Operating system junk
+.DS_Store
+Thumbs.db
+
+# SECRETS (Keeps your Wi-Fi credentials off GitHub)
+*secrets.h
